@@ -1,0 +1,11 @@
+C1=int(input("Enter no.students in class 1:"))
+C2=int(input("Enter no.of students in class 2:"))
+C3=int(input("Enter no.of students in class 3:"))
+import math
+d1=math.ceil(C1/2)
+d2=math.ceil(C2/2)
+d3=math.ceil(C3/2)
+print(f"desk in C1:{d1}")
+print(f"desk in C2:{d2}")
+print(f"desk in C3:{d3}")
+print(f"Minimum no of desk:{d1+d2+d3}")
